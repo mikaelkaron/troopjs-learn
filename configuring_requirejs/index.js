@@ -1,7 +1,7 @@
 require({
     "baseUrl": "bower_components",
     "paths": {
-        "jquery": "juery/dist/jquery"
+        "jquery": "jquery/dist/jquery"
     },
     "deps": [ "jquery" ],
     "callback": function(jQuery) {
