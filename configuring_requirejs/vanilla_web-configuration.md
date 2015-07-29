@@ -6,11 +6,17 @@ Let's start with a vanilla RequireJS configuration for a web project.
 
 ## Starting fresh
 
-Before we do anything TroopJS specific we want to make sure our general setup works by creating a configuration that will log `"ready"` to the developer console when [jQuery](http://jquery.com/) notifies us our `document` is ready.
+Let's start by creating a configuration that will log `"ready"` to the developer console when [jQuery](http://jquery.com/) notifies us our `document` is ready.
 
-!CODEFILE "index.js"
+First let's add `jquery` as a dependency in our `bower.json` file:
 
-> Make `jquery` available to RequireJS by adding a dependency to `jquery` in your `bower.json` and then executing `bower install`.
+!CODEFILE "bower.jquery.json"
+
+> After adding a dependency to `bower.json` you should make it available to RequireJS by executing `bower install`.
+
+Now let's add the JS code:
+
+!CODEFILE "index.jquery.json"
 
 If you can see `"ready"` in the console then you have a working RequireJS configuration to start from.
 
