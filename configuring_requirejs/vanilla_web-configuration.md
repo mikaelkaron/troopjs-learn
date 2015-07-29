@@ -13,3 +13,7 @@ Before we do anything TroopJS specific we want to make sure our general setup wo
 If you can see `"ready"` in the console then you have a working RequireJS configuration to start from.
 
 ## Including TroopJS
+
+The easiest way to get started with TroopJS is to use the [`troopjs-widget`](http://troopjs.com/troopjs-widget/) module and starting an `Application` from the `HTML` element.
+
+!CODEFILE "index.troopjs.js"
