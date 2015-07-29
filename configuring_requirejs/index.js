@@ -4,7 +4,7 @@ require({
         "name": "troopjs-learn-requirejs",
         "location": ".."
     }],
-    "callback": function(jQuery) {
+    "callback": function() {
         console.log("ok");
     }
 });
