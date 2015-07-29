@@ -10,3 +10,6 @@ Before we do anything TroopJS specific we want to make sure our general setup wo
 
 !CODEFILE "index.js"
 
+If you can see `"ready"` in the console then you have a working RequireJS configuration to start from.
+
+## Including TroopJS
