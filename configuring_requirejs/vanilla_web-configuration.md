@@ -20,7 +20,7 @@ Now let's add the JS code:
 
 If you can see `"ready"` in the console then you have a working RequireJS configuration to start from.
 
-## Including TroopJS
+## Adding TroopJS
 
 The easiest way to get started with TroopJS is to use the [`troopjs-widget`](http://troopjs.com/troopjs-widget/) module and starting an `Application` from the `HTML` element.
 
