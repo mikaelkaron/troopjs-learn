@@ -1,4 +1,4 @@
 # Summary
 
-* Configuring RequireJS
+* [Configuring RequireJS](configuring_requirejs/chapter.md)
 
