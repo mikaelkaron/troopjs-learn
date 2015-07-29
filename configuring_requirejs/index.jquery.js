@@ -1,5 +1,9 @@
 require({
     "baseUrl": "bower_components",
+    "packages": [{
+        "name": "troopjs-learn-requirejs",
+        "location": ".."
+    }],
     "paths": {
         "jquery": "jquery/dist/jquery"
     },
