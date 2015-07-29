@@ -2,4 +2,5 @@
 
 * [Introduction](README.md)
 * [Configuring RequireJS](configuring_requirejs.md)
+   * Vanilla web-configuration
 
