@@ -1,3 +1,3 @@
 # Learn TroopJS
 
-This is the master repository for something that will eventually become a book that teaches you how to learn [TroopJS](http://troopjs.com/).
+This is collection of documents that will hopefully become a book that teaches you how to use [TroopJS](http://troopjs.com/).
