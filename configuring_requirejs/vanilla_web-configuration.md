@@ -8,22 +8,4 @@ Let's start with a vanilla RequireJS configuration for a web project.
 
 Before we do anything TroopJS specific we want to make sure our general setup works by creating a configuration that will log `"ready"` when [jQuery](http://jquery.com/) notifies us the `document` is ready.
 
-```javascript
-/**
----
-file: index.js
----
-*/
-require({
-    "baseUrl": "bower_components",
-    "paths": {
-        "jquery": "juery/dist/jquery"
-    },
-    "deps": [ "jquery" ],
-    "callback": function(jQuery) {
-        jQuery(function($) {
-            console.log("ready");
-        });
-    }
-});
-```
+!CODEFILE "index.js"
