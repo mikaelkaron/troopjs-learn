@@ -1,6 +1,4 @@
 {
-    "plugins": [
-        "include-highligh"
-    ],
+    "plugins": [],
     "pluginsConfig": {}
 }
