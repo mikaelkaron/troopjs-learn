@@ -1,3 +1,5 @@
+# Vanilla web-configuration
+
 ```javascript
 /**
 ---
