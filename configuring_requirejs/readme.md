@@ -6,3 +6,4 @@ TroopJS can be used with any AMD loader but we use [RequireJS](http://requirejs.
 
 First let's create a `bower.json` file for our project.
 
+!CODEFILE "bower.json"
