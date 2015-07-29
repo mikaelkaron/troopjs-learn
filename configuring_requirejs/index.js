@@ -1,12 +1,10 @@
 require({
     "baseUrl": "bower_components",
-    "paths": {
-        "jquery": "jquery/dist/jquery"
-    },
-    "deps": [ "jquery" ],
+    "packages": [{
+        "name": "troopjs-learn-requirejs",
+        "location": ".."
+    }],
     "callback": function(jQuery) {
-        jQuery(function($) {
-            console.log("ready");
-        });
+        console.log("ok");
     }
 });
