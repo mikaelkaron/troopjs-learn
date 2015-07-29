@@ -16,7 +16,7 @@ First let's add `jquery` as a dependency in our `bower.json` file:
 
 Now let's add the JS code:
 
-!CODEFILE "index.jquery.json"
+!CODEFILE "index.jquery.js"
 
 If you can see `"ready"` in the console then you have a working RequireJS configuration to start from.
 
