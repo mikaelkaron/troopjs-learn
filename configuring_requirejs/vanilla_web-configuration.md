@@ -10,6 +10,8 @@ Before we do anything TroopJS specific we want to make sure our general setup wo
 
 !CODEFILE "index.js"
 
+> Make `jquery` available to RequireJS by adding a dependency to `jquery` in your `bower.json` and then executing `bower install`.
+
 If you can see `"ready"` in the console then you have a working RequireJS configuration to start from.
 
 ## Including TroopJS
