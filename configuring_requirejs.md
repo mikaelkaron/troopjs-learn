@@ -4,4 +4,4 @@ TroopJS can be used with any AMD loader but we use [RequireJS](http://requirejs.
 
 > *prerequisites*
 >
-> In these examples we assume that you use [bower](http://bower.io/) to manage your dependencies and that they are located in `bower_components`.
+> In the rest of this chapter we assume that you use [bower](http://bower.io/) to manage your dependencies and that they are located in `bower_components`.
