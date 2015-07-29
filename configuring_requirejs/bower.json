@@ -1,0 +1,6 @@
+{
+    "name": "troopjs-requirejs",
+    "devDependencies": {
+        "requirejs": "^2.1"
+    }
+}
