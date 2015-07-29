@@ -1,5 +1,5 @@
 # Summary
 
 * [Introduction](README.md)
-* Configuring RequireJS
+* [Configuring RequireJS](configuring_requirejs.md)
 
