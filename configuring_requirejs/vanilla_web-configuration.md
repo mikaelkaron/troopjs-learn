@@ -24,4 +24,6 @@ If you can see `"ready"` in the console then you have a working RequireJS config
 
 The easiest way to get started with TroopJS is to use the [`troopjs-widget`](http://troopjs.com/troopjs-widget/) module and starting an `Application` from the `HTML` element.
 
+Let's add some code that will log `"started"` to the developer console when our TroopJS application is started.
+
 !CODEFILE "index.troopjs.js"
