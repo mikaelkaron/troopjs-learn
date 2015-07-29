@@ -6,6 +6,6 @@ Let's start with a vanilla RequireJS configuration for a web project.
 
 ## Starting fresh
 
-Before we do anything TroopJS specific we want to make sure our general setup works by creating a configuration that will log `"ready"` when [jQuery](http://jquery.com/) notifies us our `document` is ready.
+Before we do anything TroopJS specific we want to make sure our general setup works by creating a configuration that will log `"ready"` to the developer console when [jQuery](http://jquery.com/) notifies us our `document` is ready.
 
 !CODEFILE "index.js"
