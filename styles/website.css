@@ -1,4 +1,4 @@
 /* CSS for website */
 .book .sharing-link {
-    display: none;
+    display: none !important;
 }
