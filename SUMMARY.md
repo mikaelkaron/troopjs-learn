@@ -4,4 +4,5 @@
 * [Configuring RequireJS](configuring_requirejs/readme.md)
    * [Vanilla web-configuration](configuring_requirejs/vanilla_web-configuration.md)
 * [Writing Applications](writing_applications.md)
+   * RequireJS
 
