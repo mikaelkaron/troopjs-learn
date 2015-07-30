@@ -1,0 +1,6 @@
+{
+    "name": "troopjs-learn-requirejs",
+    "devDependencies": {
+        "requirejs": "^2.1"
+    }
+}
