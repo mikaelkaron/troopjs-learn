@@ -1,6 +1,6 @@
 # Bower
 
-TroopJS use bower to manage dependencies.
+TroopJS use Bower to manage dependencies.
 
 Let's start our with a simple `bower.json` file:
 
@@ -8,4 +8,4 @@ Let's start our with a simple `bower.json` file:
 
 ## Bower and RequireJS
 
-For bower and RequireJS to play along nice it's best to leave the standard bower structure `bower_components/{package}/{module}` for module installation.
+For bower and RequireJS to play along nice it's best to leave the standard bower structure for installed packages ( `bower_components/{package}/{module}`).
