@@ -17,11 +17,11 @@ Before we do anything more specific we want to make sure our general setup works
 
 !CODEFILE "index.js"
 
-And to run it in a browser we need an `index.html` file:
+> By default Bower installs packages in `bower_components/{package}/{module}` so we use that to configure our `baseUrl`.
+
+Now let's run it in a browser by opening the `index.html` file:
 
 !CODEFILE "index.html"
-
-> By default Bower installs packages in `bower_components/{package}/{module}`, so we load the initial `require.js` file from there.
 
 Open `index.html` in a browser and If you can see `"ok"` in the developer console then you have a working RequireJS configuration to start from.
 
