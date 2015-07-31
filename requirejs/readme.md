@@ -16,6 +16,8 @@ Before we do anything more TroopJS specific we want to make sure our general set
 
 !CODEFILE "index.js"
 
+And to try it we need 
+
 # Vanilla web-configuration
 
 Let's start with a vanilla RequireJS configuration for a web project.
