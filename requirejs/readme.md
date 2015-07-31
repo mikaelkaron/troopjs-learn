@@ -16,7 +16,7 @@ Before we do anything more TroopJS specific we want to make sure our general set
 
 !CODEFILE "index.js"
 
-And to try it we need an `HTML` file:
+And to run it in a browser we need an `index.html` file:
 
 !CODEFILE "index.html"
 
