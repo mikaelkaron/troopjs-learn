@@ -6,7 +6,7 @@ Let's start by adding `requirejs` to our `bower.json` development dependencies:
 
 !CODEFILE "bower.json"
 
-After that we can install RequireJS using `bower install`:
+After that we can install our newly added dependency using `bower install`:
 
 ```bash
 $ bower install
