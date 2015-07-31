@@ -23,9 +23,9 @@ And to run it in a browser we need an `index.html` file:
 
 > By default Bower installs packages in `bower_components/{package}/{module}`, so we load the initial `require.js` file from there.
 
-Open `index.html` in a browser and If you can see `"ready"` in the developer console then you have a working RequireJS configuration to start from.
+Open `index.html` in a browser and If you can see `"ok"` in the developer console then you have a working RequireJS configuration to start from.
 
-# Starting vanilla
+# Adding jQuery
 
 The first thing we need is jQuery so let's start by creating a configuration that will log `"ready"` to the developer console when jQuery notifies us our `document` is ready.
 
@@ -36,8 +36,6 @@ First let's add `jquery` as a dependency in our `bower.json` file:
 Now let's add the JS code:
 
 !CODEFILE "index.jquery.js"
-
-If you can see `"ready"` in the console then you have a working RequireJS configuration to start from.
 
 ## Adding TroopJS
 
