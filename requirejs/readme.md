@@ -12,8 +12,6 @@ After that we can install RequireJS using `bower install`:
 $ bower install
 ```
 
-> For Bower and RequireJS to play along it's best to leave the standard structure for installed packages `bower_components/{package}/{module}` as-is.
-
 Before we do anything more TroopJS specific we want to make sure our general setup works by creating a configuration that will log `"ok"` to the developer console.
 
 !CODEFILE "index.js"
@@ -23,6 +21,8 @@ Before we do anything more TroopJS specific we want to make sure our general set
 Let's start with a vanilla RequireJS configuration for a web project.
 
 > We're not going to explain how to use RequireJS in detail here but in these examples we employ the [`data-main` entry point](http://requirejs.org/docs/api.html#data-main) technique.
+
+> For Bower and RequireJS to play along it's best to leave the standard structure for installed packages `bower_components/{package}/{module}` as-is.
 
 ## Starting fresh
 
