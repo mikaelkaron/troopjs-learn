@@ -1,6 +1,6 @@
 # Bower
 
-TroopJS use [bower](http://bower.io/) to manage dependencies.
+TroopJS use bower to manage dependencies.
 
 Let's start our with a simple `bower.json` file:
 
