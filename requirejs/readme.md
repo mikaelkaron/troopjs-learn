@@ -23,7 +23,7 @@ And to run it in a browser we need an `index.html` file:
 
 > By default Bower installs packages in `bower_components/{package}/{module}`, so we load the initial `require.js` file from there.
 
-If you can see `"ready"` in the console then you have a working RequireJS configuration to start from.
+Open `index.html` in a browser and If you can see `"ready"` in the developer console then you have a working RequireJS configuration to start from.
 
 # Starting vanilla
 
