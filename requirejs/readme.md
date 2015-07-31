@@ -19,7 +19,7 @@ Before we do anything more specific we want to make sure our general setup works
 
 > By default Bower installs packages in `bower_components/{package}/{module}` so we use that to configure our `baseUrl`.
 
-Now let's run it in a browser by opening the `index.html` file:
+To run in a browser we need an `index.html` file:
 
 !CODEFILE "index.html"
 
