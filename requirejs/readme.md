@@ -20,7 +20,7 @@ And to run it in a browser we need an `index.html` file:
 
 !CODEFILE "index.html"
 
-# Vanilla web-configuration
+# Vanilla
 
 Let's start with a vanilla RequireJS configuration for a web project.
 
