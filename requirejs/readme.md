@@ -1,6 +1,6 @@
 # RequireJS
 
-TroopJS can be used with any AMD loader but we use RequireJS when we build and test TroopJS.
+TroopJS can be used with any AMD capable loader, but since the official builds use RequireJS we know what you read here works for us.
 
 Let's start by adding `requirejs` to our `bower.json` development dependencies:
 
