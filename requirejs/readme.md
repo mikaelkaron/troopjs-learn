@@ -30,7 +30,7 @@ First let's add `jquery` as a dependency in our `bower.json` file:
 
 !CODEFILE "bower.jquery.json"
 
-> After adding a dependency to `bower.json` you should make it available to RequireJS by executing `bower install`.
+> After adding a dependency to `bower.json` you should always make it available to RequireJS by executing `bower install`.
 
 Now let's add the JS code:
 
