@@ -20,7 +20,7 @@ And to run it in a browser we need an `index.html` file:
 
 !CODEFILE "index.html"
 
-> By default Bower installs packages in `bower_components/{package}/{module}` and this is where we load the initial `require.js` file.
+> By default Bower installs packages in `bower_components/{package}/{module}`, so we load the initial `require.js` file from there.
 
 # Vanilla
 
