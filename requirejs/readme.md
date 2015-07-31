@@ -20,13 +20,13 @@ And to run it in a browser we need an `index.html` file:
 
 !CODEFILE "index.html"
 
+> By default Bower installs packages in `bower_components/{package}/{module}` and this is where we load the initial `require.js` file.
+
 # Vanilla
 
 Let's start with a vanilla RequireJS configuration for a web project.
 
 > We're not going to explain how to use RequireJS in detail here but in these examples we employ the [`data-main` entry point](http://requirejs.org/docs/api.html#data-main) technique.
-
-> For Bower and RequireJS to play along it's best to leave the standard structure for installed packages `bower_components/{package}/{module}` as-is.
 
 ## Starting fresh
 
