@@ -11,6 +11,7 @@ After that we can install our newly added dependency using `bower install`:
 ```bash
 $ bower install
 ```
+> After adding a dependency to `bower.json` you should always make it available to RequireJS by executing `bower install`.
 
 Before we do anything more specific we want to make sure our general setup works by creating a configuration that will log `"ok"` to the developer console.
 
@@ -29,8 +30,6 @@ The first thing we need is jQuery so let's start by creating a configuration tha
 First let's add `jquery` as a dependency in our `bower.json` file:
 
 !CODEFILE "bower.jquery.json"
-
-> After adding a dependency to `bower.json` you should always make it available to RequireJS by executing `bower install`.
 
 Now let's add the JS code:
 
