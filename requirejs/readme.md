@@ -22,7 +22,7 @@ And to run it in a browser we need an `index.html` file:
 
 > By default Bower installs packages in `bower_components/{package}/{module}`, so we load the initial `require.js` file from there.
 
-# Vanilla
+# Starting vanilla
 
 Let's start by creating a configuration that will log `"ready"` to the developer console when [jQuery](http://jquery.com/) notifies us our `document` is ready.
 
