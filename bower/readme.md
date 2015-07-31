@@ -2,7 +2,7 @@
 
 TroopJS use Bower to manage dependencies.
 
-Let's start our with a simple `bower.json` file:
+Let's start with a simple `bower.json` file:
 
 !CODEFILE "bower.json"
 
