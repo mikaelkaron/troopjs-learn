@@ -24,7 +24,7 @@ And to run it in a browser we need an `index.html` file:
 
 # Starting vanilla
 
-Let's start by creating a configuration that will log `"ready"` to the developer console when [jQuery](http://jquery.com/) notifies us our `document` is ready.
+The first thing we need is jQuery so let's start by creating a configuration that will log `"ready"` to the developer console when jQuery notifies us our `document` is ready.
 
 First let's add `jquery` as a dependency in our `bower.json` file:
 
