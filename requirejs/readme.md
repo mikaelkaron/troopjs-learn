@@ -12,7 +12,7 @@ After that we can install RequireJS using `bower install`:
 $ bower install
 ```
 
-Before we do anything TroopJS specific we want to make sure our general setup works by creating a configuration that will log `"ok"` to the developer console.
+Before we do anything more TroopJS specific we want to make sure our general setup works by creating a configuration that will log `"ok"` to the developer console.
 
 !CODEFILE "index.js"
 
