@@ -38,7 +38,7 @@ To use the latest tested combination of stack packages you just have to add `tro
 
 ### Using a bundle
 
-TroopJS is also available pre-bundled if you want to save on HTTP requests. To use this feature you have two options, either a combination of the `deps` option and the magic module `require` or the `bundle` option.
+TroopJS is also available pre-bundled if you want to save on HTTP requests. To use this feature you have two options, either a combination of the `deps` option and the magic module `require` or the `bundles` option.
 
 The most compatible albeit more verbose option is the `deps` option:
 
