@@ -40,9 +40,20 @@ To use the latest tested combination of stack packages you just have to add `tro
 
 TroopJS is also available pre-bundled if you want to save on HTTP requests. To use this feature you have two options, either a combination of the `deps` option and the magic module `require` or the `bundles` option.
 
+#### Method 1: `deps`
+
 The most compatible albeit more verbose option is the `deps` option:
 
 !CODEFILE "index.troopjs-deps.js"
+
+> The reason we use `localRequire` is because without it RequireJS would not load `troopjs-core/composition` from the bundle but from its own package. Using this constuct we also ensure that the whole bundle is loaded _before_ we use any of the contained modules.
+
+#### Method 2: `bundles`
+
+If you are using a later RequireJS version >= 2.1.10 you can use the `bundles` option to make RequireJS load our bundle automatically before we use any of the contained modules.
+
+!CODEFILE "index.troopjs-bundles.js"
+
 
 ## Adding jQuery
 
