@@ -4,7 +4,7 @@ When you think of Elastic Search you don't usually think of it as a generic JSON
 
 ## Installation
 
-## Data
+## Store Keeping Unit
 
 ### JSON
 
