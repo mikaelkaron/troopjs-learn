@@ -1,7 +1,8 @@
 {
     "name": "troopjs-learn-requirejs",
     "dependencies": {
-        "jquery": "^1"
+        "jquery": "^1",
+        "troopjs": "^3"
     },
     "devDependencies": {
         "requirejs": "^2.1"
