@@ -4,5 +4,5 @@
 * [Applications](applications/readme.md)
    * [Bower](bower/readme.md)
    * [RequireJS](requirejs/readme.md)
-   * Shopper
+   * [Shopper](shopper/readme.md)
 
