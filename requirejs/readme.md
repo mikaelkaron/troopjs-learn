@@ -26,7 +26,7 @@ To run in a browser we need an `index.html` file:
 
 Open `index.html` in a browser and If you can see `"ok"` in the developer console then you have a working RequireJS configuration to start from.
 
-# Adding jQuery
+## Adding jQuery
 
 The first thing most web-applications need is jQuery, so let's start by creating a configuration that will log `"ready"` to the developer console when jQuery notifies us our `document` is ready.
 
@@ -39,6 +39,9 @@ Now let's add the JS code:
 !CODEFILE "index.jquery.js"
 
 ## Adding TroopJS
+
+
+### Adding `troopjs-widget`
 
 The easiest way to get started with TroopJS is to use the [`troopjs-widget`](http://troopjs.com/troopjs-widget/) module and starting an `Application` from the `HTML` element.
 
