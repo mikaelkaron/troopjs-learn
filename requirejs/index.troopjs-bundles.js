@@ -39,7 +39,7 @@ require({
             "troopjs-dom/component"
         ]
     },
-    "deps": [ ""troopjs-core/composition" ],
+    "deps": [ "troopjs-core/composition" ],
     "callback": function(Composition) {
         console.log(Composition);
     }
