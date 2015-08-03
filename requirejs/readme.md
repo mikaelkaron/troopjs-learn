@@ -40,8 +40,9 @@ Now let's add the JS code:
 
 ## Adding TroopJS
 
+TroopJS is split up into packages based on functionality, for example `troopjs-compose` contains the composition layer used in TroopJS while `troopjs-core` contains core objects and utilities.
 
-### Adding `troopjs-widget`
+## Adding `troopjs-widget`
 
 The easiest way to get started with TroopJS is to use the [`troopjs-widget`](http://troopjs.com/troopjs-widget/) module and starting an `Application` from the `HTML` element.
 
