@@ -46,7 +46,7 @@ The most compatible option is the `deps` option:
 
 !CODEFILE "index.troopjs-deps.js"
 
-> The reason we use `localRequire` is because without it RequireJS would not load `troopjs-core/composition` from the bundle but from its own package. Using this constuct we also ensure that the whole bundle is loaded _before_ we use any of the contained modules.
+> The reason we use `localRequire` is because without it RequireJS would not load `troopjs-core/composition` from the bundle but from its own package. Using this construct we also ensure that the whole bundle is loaded _before_ we use any of the contained modules.
 
 #### Method 2: `bundles`
 
