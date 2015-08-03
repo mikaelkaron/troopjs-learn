@@ -50,7 +50,7 @@ The most compatible option is the `deps` option:
 
 #### Method 2: `bundles`
 
-If you are using a later RequireJS version >= 2.1.10 you can use the `bundles` option to make RequireJS load our bundle automatically before we use any of the contained modules.
+If you are using RequireJS version >= 2.1.10 you can use the `bundles` option to make RequireJS load our bundle automatically before we use any of the contained modules.
 
 !CODEFILE "index.troopjs-bundles.js"
 
