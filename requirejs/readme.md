@@ -42,14 +42,13 @@ Now let's add the JS code:
 
 TroopJS is split up into packages based on functionality, for example `troopjs-compose` contains the composition layer used in TroopJS while `troopjs-core` contains core objects and utilities.
 
-Depending on if you are developing an application or if you are developing a library the recommended method for loading TroopJS differs slightly.
-
 To use the latest tested combination of stack packages you just have to add `troopjs` to your `bower.json` dependencies:
 
 !CODEFILE "bower.troopjs.json"
 
-> 
-### Adding `troopjs-widget`
+> If you are using a different combination of package versions than the official ones and you are careful enough to manage your own `troopjs-*` versions you can depend on the individual packages instead of the top level`troopjs` one.
+
+### Bootstrapping
 
 The easiest way to get started with TroopJS is to use the [`troopjs-widget`](http://troopjs.com/troopjs-widget/) module and starting an `Application` from the `HTML` element.
 
