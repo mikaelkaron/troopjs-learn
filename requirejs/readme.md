@@ -58,4 +58,4 @@ First let's add `troopjs-widget` to our `bower.json` dependences:
 
 And then let's add some code that will log `"started"` to the developer console when our TroopJS application is started.
 
-!CODEFILE "index.troopjs.js"
+!CODEFILE "index.troopjs-widget.js"
