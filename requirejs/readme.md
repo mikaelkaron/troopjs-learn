@@ -42,7 +42,7 @@ TroopJS is also available pre-bundled if you want to save on HTTP requests. To u
 
 #### Method 1: `deps`
 
-The most compatible albeit more verbose option is the `deps` option:
+The most compatible option is the `deps` option:
 
 !CODEFILE "index.troopjs-deps.js"
 
