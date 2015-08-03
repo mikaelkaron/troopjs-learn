@@ -54,7 +54,7 @@ The easiest way to get started with TroopJS is to use the [`troopjs-widget`](htt
 
 First let's add `troopjs-widget` to our `bower.json` dependences:
 
-!CODEFILE "bower.troopjs.json"
+!CODEFILE "bower.troopjs-widget.json"
 
 And then let's add some code that will log `"started"` to the developer console when our TroopJS application is started.
 
