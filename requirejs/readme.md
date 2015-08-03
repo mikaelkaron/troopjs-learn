@@ -26,18 +26,6 @@ To run in a browser we need an `index.html` file:
 
 Open `index.html` in a browser and If you can see `"ok"` in the developer console then you have a working RequireJS configuration to start from.
 
-## Adding jQuery
-
-The first thing most web-applications need is jQuery, so let's start by creating a configuration that will log `"ready"` to the developer console when jQuery notifies us our `document` is ready.
-
-First let's add `jquery` as a dependency in our `bower.json` file:
-
-!CODEFILE "bower.jquery.json"
-
-Now let's add the JS code:
-
-!CODEFILE "index.jquery.js"
-
 ## Adding TroopJS
 
 TroopJS is split up into packages based on functionality, for example `troopjs-compose` contains the composition layer used in TroopJS while `troopjs-core` contains core objects and utilities.
@@ -55,6 +43,18 @@ TroopJS is also available pre-bundled if you want to save on HTTP requests. To u
 The most compatible albeit more verbose option is the `deps` option:
 
 !CODEFILE "index.troopjs-deps.js"
+
+## Adding jQuery
+
+The first thing most web-applications need is jQuery, so let's start by creating a configuration that will log `"ready"` to the developer console when jQuery notifies us our `document` is ready.
+
+First let's add `jquery` as a dependency in our `bower.json` file:
+
+!CODEFILE "bower.jquery.json"
+
+Now let's add the JS code:
+
+!CODEFILE "index.jquery.js"
 
 ## Bootstrapping
 
