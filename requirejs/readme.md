@@ -48,11 +48,13 @@ To use the latest tested combination of stack packages you just have to add `tro
 
 > If you are using a different combination of package versions than the official ones and you are careful enough to manage your own `troopjs-*` versions you can depend on the individual packages instead of the top level`troopjs` one.
 
-### Bundling
+### Using a bundle
 
-TroopJS is also available pre-bundled if you want to save on HTTP requests. To use this feature just add `troopjs` to you initial `deps`:
+TroopJS is also available pre-bundled if you want to save on HTTP requests. To use this feature you have two options, either a combination of the `deps` option and the magic module `require` or the `bundle` option.
 
-!CODEFILE "index.troopjs.js"
+The most compatible albeit more verbose option is the `deps` option:
+
+!CODEFILE "index.troopjs-deps.js"
 
 ## Bootstrapping
 
