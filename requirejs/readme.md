@@ -54,6 +54,7 @@ If you are using a later RequireJS version >= 2.1.10 you can use the `bundles` o
 
 !CODEFILE "index.troopjs-bundles.js"
 
+> The list of modules contained in the TroopJS bundle can be deduced from reading `build.txt`.
 
 ## Adding jQuery
 
