@@ -58,7 +58,7 @@ If you are using RequireJS >= 2.1.10 you can use the `bundles` option to make Re
 
 ## Adding jQuery
 
-The first thing most web-applications need is jQuery, so let's start by creating a configuration that will log `"ready"` to the developer console when jQuery notifies us our `document` is ready.
+A lot of web-applications are built using jQuery, so let's start by creating a configuration that will log `"ready"` to the developer console when jQuery notifies us our `document` is ready.
 
 First let's add `jquery` as a dependency in our `bower.json` file:
 
