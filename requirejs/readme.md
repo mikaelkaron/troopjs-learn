@@ -48,7 +48,7 @@ To use the latest tested combination of stack packages you just have to add `tro
 
 > If you are using a different combination of package versions than the official ones and you are careful enough to manage your own `troopjs-*` versions you can depend on the individual packages instead of the top level`troopjs` one.
 
-### Bootstrapping
+## Bootstrapping
 
 The easiest way to get started with TroopJS is to use the [`troopjs-widget`](http://troopjs.com/troopjs-widget/) module and starting an `Application` from the `HTML` element.
 
